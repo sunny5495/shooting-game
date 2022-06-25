@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoot Game</title>
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section id="box1">
+          <h1 class="heading">player 1</h1>
+          <div class="plr">
+            <p>Health : <span class="score--1">10</span></p>
+            <p>Power:<span class="pwr1"> </span></p>
+            <h2>player 1 won : <span class="win1"></span></h2>
+          </div>
+        </section>
+        <section id="box2">
+          <h1 class="heading">player 2</h1>
+          <div class="plr">
+            <p>Health: <span class="score--2">10</span></p>
+            <p>Power:<span class="pwr2"> </span></p>
+            <h2>player 2 won : <span class="win2"></span></h2>
+          </div>
+        </section>
+        <section class="popup hidden">
+          <button class="close-popup">&times;</button>
+          <h1><span class="player--win"></span> WINNER !</h1>
+        </section>
+        <button class="btn btn--Fir">Shoot</button>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
